@@ -1,0 +1,23 @@
+Open your folder in command prompt ,then run your model using below command
+python model.py
+which will automatically save a model with .h5 extension
+
+Summary of Commands for Windows:
+1.  Create the virtual environment:
+python -m venv myenv
+
+
+2. Activate the virtual environment:
+myenv\Scripts\activate
+
+
+3. Install dependencies:
+pip install tensorflow streamlit pillow numpy
+
+
+4. Run the Streamlit app:
+streamlit run app.py
+
+
+5. Deactivate the virtual environment (optional):
+deactivate
